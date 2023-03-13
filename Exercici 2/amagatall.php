@@ -1,9 +1,7 @@
 <?php
 
-  define("contar10", 10);
-
   function contarAmagatall(){
-    for($i = 0; $i <= contar10; $i++){
+    for($i=0; $i<=10; $i+=2){
       echo $i." ";
     }
   }

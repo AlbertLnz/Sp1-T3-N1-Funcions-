@@ -8,13 +8,9 @@
 </head>
 <body>
   
-  <div style="color: red;">
-    <?php
-      for($i=0; $i<=10; $i+=2){
-        echo $i." ";
-      }
-    ?>
-  </div>
+  <form action="amagatall.php" method="POST">
+    <button type="subtmit">Contar</button>
+  </form>
 
 </body>
 </html>

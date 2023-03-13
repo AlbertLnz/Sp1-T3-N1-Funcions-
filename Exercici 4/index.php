@@ -4,13 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exercici_1</title>
+  <title>Document</title>
 </head>
 <body>
   
-  <form action="edat.php" method="POST">
-    <input name="edat" type="number" placeholder="Digues la teva edat">
-    <button type="submit">Enviar datos</button>
+  <form action='contar.php'>
+    <button type="submit">Empezar a contar</button>
   </form>
 
 </body>
