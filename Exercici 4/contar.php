@@ -2,12 +2,12 @@
 
   define("contar10", 10);
 
-  function contarAmagatall(){
-    for($i = 0; $i <= contar10; $i++){
+  function contarAmagatall($contar10){
+    for($i = 0; $i <= $contar10; $i++){
       echo $i." ";
     }
   }
 
-  contarAmagatall();
+  contarAmagatall(contar10);
 
 ?>
