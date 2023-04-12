@@ -1,13 +1,13 @@
 <?php
 
-  define("contar10", 10);
+  // define("contar10", 10);
 
-  function contarAmagatall($contar10){
+  function contarAmagatall($contar10=10){
     for($i = 0; $i <= $contar10; $i++){
       echo $i." ";
     }
   }
 
-  contarAmagatall(contar10);
+  contarAmagatall();
 
 ?>
